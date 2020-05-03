@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF33434A245E440700B13810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF334349245E440700B13810 /* AppDelegate.swift */; };
+		FF33434C245E440700B13810 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33434B245E440700B13810 /* SceneDelegate.swift */; };
+		FF33434E245E440700B13810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33434D245E440700B13810 /* ViewController.swift */; };
+		FF334351245E440700B13810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF33434F245E440700B13810 /* Main.storyboard */; };
+		FF334353245E440D00B13810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF334352245E440D00B13810 /* Assets.xcassets */; };
+		FF334356245E440D00B13810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF334354245E440D00B13810 /* LaunchScreen.storyboard */; };
+		FF334361245E440D00B13810 /* Final_Project_Griffin__NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF334360245E440D00B13810 /* Final_Project_Griffin__NotesTests.swift */; };
+		FF33436C245E440D00B13810 /* Final_Project_Griffin__NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33436B245E440D00B13810 /* Final_Project_Griffin__NotesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF33435D245E440D00B13810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF33433E245E440600B13810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF334345245E440700B13810;
+			remoteInfo = "Final Project Griffin: Notes";
+		};
+		FF334368245E440D00B13810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF33433E245E440600B13810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF334345245E440700B13810;
+			remoteInfo = "Final Project Griffin: Notes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF334346245E440700B13810 /* Final Project Griffin: Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project Griffin: Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF334349245E440700B13810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF33434B245E440700B13810 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF33434D245E440700B13810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF334350245E440700B13810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF334352245E440D00B13810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF334355245E440D00B13810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF334357245E440D00B13810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF33435C245E440D00B13810 /* Final Project Griffin: NotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project Griffin: NotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF334360245E440D00B13810 /* Final_Project_Griffin__NotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project_Griffin__NotesTests.swift; sourceTree = "<group>"; };
+		FF334362245E440D00B13810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF334367245E440D00B13810 /* Final Project Griffin: NotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project Griffin: NotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF33436B245E440D00B13810 /* Final_Project_Griffin__NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project_Griffin__NotesUITests.swift; sourceTree = "<group>"; };
+		FF33436D245E440D00B13810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF334343245E440700B13810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF334359245E440D00B13810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF334364245E440D00B13810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF33433D245E440600B13810 = {
+			isa = PBXGroup;
+			children = (
+				FF334348245E440700B13810 /* Final Project Griffin: Notes */,
+				FF33435F245E440D00B13810 /* Final Project Griffin: NotesTests */,
+				FF33436A245E440D00B13810 /* Final Project Griffin: NotesUITests */,
+				FF334347245E440700B13810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF334347245E440700B13810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF334346245E440700B13810 /* Final Project Griffin: Notes.app */,
+				FF33435C245E440D00B13810 /* Final Project Griffin: NotesTests.xctest */,
+				FF334367245E440D00B13810 /* Final Project Griffin: NotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF334348245E440700B13810 /* Final Project Griffin: Notes */ = {
+			isa = PBXGroup;
+			children = (
+				FF334349245E440700B13810 /* AppDelegate.swift */,
+				FF33434B245E440700B13810 /* SceneDelegate.swift */,
+				FF33434D245E440700B13810 /* ViewController.swift */,
+				FF33434F245E440700B13810 /* Main.storyboard */,
+				FF334352245E440D00B13810 /* Assets.xcassets */,
+				FF334354245E440D00B13810 /* LaunchScreen.storyboard */,
+				FF334357245E440D00B13810 /* Info.plist */,
+			);
+			path = "Final Project Griffin: Notes";
+			sourceTree = "<group>";
+		};
+		FF33435F245E440D00B13810 /* Final Project Griffin: NotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF334360245E440D00B13810 /* Final_Project_Griffin__NotesTests.swift */,
+				FF334362245E440D00B13810 /* Info.plist */,
+			);
+			path = "Final Project Griffin: NotesTests";
+			sourceTree = "<group>";
+		};
+		FF33436A245E440D00B13810 /* Final Project Griffin: NotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF33436B245E440D00B13810 /* Final_Project_Griffin__NotesUITests.swift */,
+				FF33436D245E440D00B13810 /* Info.plist */,
+			);
+			path = "Final Project Griffin: NotesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF334345245E440700B13810 /* Final Project Griffin: Notes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF334370245E440D00B13810 /* Build configuration list for PBXNativeTarget "Final Project Griffin: Notes" */;
+			buildPhases = (
+				FF334342245E440700B13810 /* Sources */,
+				FF334343245E440700B13810 /* Frameworks */,
+				FF334344245E440700B13810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Final Project Griffin: Notes";
+			productName = "Final Project Griffin: Notes";
+			productReference = FF334346245E440700B13810 /* Final Project Griffin: Notes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF33435B245E440D00B13810 /* Final Project Griffin: NotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF334373245E440D00B13810 /* Build configuration list for PBXNativeTarget "Final Project Griffin: NotesTests" */;
+			buildPhases = (
+				FF334358245E440D00B13810 /* Sources */,
+				FF334359245E440D00B13810 /* Frameworks */,
+				FF33435A245E440D00B13810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF33435E245E440D00B13810 /* PBXTargetDependency */,
+			);
+			name = "Final Project Griffin: NotesTests";
+			productName = "Final Project Griffin: NotesTests";
+			productReference = FF33435C245E440D00B13810 /* Final Project Griffin: NotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF334366245E440D00B13810 /* Final Project Griffin: NotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF334376245E440D00B13810 /* Build configuration list for PBXNativeTarget "Final Project Griffin: NotesUITests" */;
+			buildPhases = (
+				FF334363245E440D00B13810 /* Sources */,
+				FF334364245E440D00B13810 /* Frameworks */,
+				FF334365245E440D00B13810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF334369245E440D00B13810 /* PBXTargetDependency */,
+			);
+			name = "Final Project Griffin: NotesUITests";
+			productName = "Final Project Griffin: NotesUITests";
+			productReference = FF334367245E440D00B13810 /* Final Project Griffin: NotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF33433E245E440600B13810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Kai Marshall";
+				TargetAttributes = {
+					FF334345245E440700B13810 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					FF33435B245E440D00B13810 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = FF334345245E440700B13810;
+					};
+					FF334366245E440D00B13810 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = FF334345245E440700B13810;
+					};
+				};
+			};
+			buildConfigurationList = FF334341245E440600B13810 /* Build configuration list for PBXProject "Final Project Griffin: Notes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF33433D245E440600B13810;
+			productRefGroup = FF334347245E440700B13810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF334345245E440700B13810 /* Final Project Griffin: Notes */,
+				FF33435B245E440D00B13810 /* Final Project Griffin: NotesTests */,
+				FF334366245E440D00B13810 /* Final Project Griffin: NotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF334344245E440700B13810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF334356245E440D00B13810 /* LaunchScreen.storyboard in Resources */,
+				FF334353245E440D00B13810 /* Assets.xcassets in Resources */,
+				FF334351245E440700B13810 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF33435A245E440D00B13810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF334365245E440D00B13810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF334342245E440700B13810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF33434E245E440700B13810 /* ViewController.swift in Sources */,
+				FF33434A245E440700B13810 /* AppDelegate.swift in Sources */,
+				FF33434C245E440700B13810 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF334358245E440D00B13810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF334361245E440D00B13810 /* Final_Project_Griffin__NotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF334363245E440D00B13810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF33436C245E440D00B13810 /* Final_Project_Griffin__NotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF33435E245E440D00B13810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF334345245E440700B13810 /* Final Project Griffin: Notes */;
+			targetProxy = FF33435D245E440D00B13810 /* PBXContainerItemProxy */;
+		};
+		FF334369245E440D00B13810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF334345245E440700B13810 /* Final Project Griffin: Notes */;
+			targetProxy = FF334368245E440D00B13810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF33434F245E440700B13810 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF334350245E440700B13810 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF334354245E440D00B13810 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF334355245E440D00B13810 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF33436E245E440D00B13810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF33436F245E440D00B13810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF334371245E440D00B13810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83R4G33D6;
+				INFOPLIST_FILE = "Final Project Griffin: Notes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Final-Project-Griffin--Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF334372245E440D00B13810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83R4G33D6;
+				INFOPLIST_FILE = "Final Project Griffin: Notes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Final-Project-Griffin--Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF334374245E440D00B13810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83R4G33D6;
+				INFOPLIST_FILE = "Final Project Griffin: NotesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Final-Project-Griffin--NotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Project Griffin: Notes.app/Final Project Griffin: Notes";
+			};
+			name = Debug;
+		};
+		FF334375245E440D00B13810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83R4G33D6;
+				INFOPLIST_FILE = "Final Project Griffin: NotesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Final-Project-Griffin--NotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Project Griffin: Notes.app/Final Project Griffin: Notes";
+			};
+			name = Release;
+		};
+		FF334377245E440D00B13810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83R4G33D6;
+				INFOPLIST_FILE = "Final Project Griffin: NotesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Final-Project-Griffin--NotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Project Griffin: Notes";
+			};
+			name = Debug;
+		};
+		FF334378245E440D00B13810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83R4G33D6;
+				INFOPLIST_FILE = "Final Project Griffin: NotesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Final-Project-Griffin--NotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Project Griffin: Notes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF334341245E440600B13810 /* Build configuration list for PBXProject "Final Project Griffin: Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF33436E245E440D00B13810 /* Debug */,
+				FF33436F245E440D00B13810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF334370245E440D00B13810 /* Build configuration list for PBXNativeTarget "Final Project Griffin: Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF334371245E440D00B13810 /* Debug */,
+				FF334372245E440D00B13810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF334373245E440D00B13810 /* Build configuration list for PBXNativeTarget "Final Project Griffin: NotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF334374245E440D00B13810 /* Debug */,
+				FF334375245E440D00B13810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF334376245E440D00B13810 /* Build configuration list for PBXNativeTarget "Final Project Griffin: NotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF334377245E440D00B13810 /* Debug */,
+				FF334378245E440D00B13810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF33433E245E440600B13810 /* Project object */;
+}
